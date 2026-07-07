@@ -14,8 +14,6 @@ async function start() {
       throw new Error(`Wrong network. Expected ${CHAIN_ID}, got ${network.chainId}`);
     }
 
-    await bot.sendMessage(CHAT_ID, "✅ NetGain Alert Bot V2 is online.");
-
     console.log("✅ Telegram connected");
 
     startBuyStakeListener();
