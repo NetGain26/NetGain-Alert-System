@@ -40,7 +40,6 @@ ${getInvestmentTitle(data.amount)}
 🎁 <b>Marketing:</b> ${formatNumber(data.marketing)} USDT
 
 📊 <b>NetGain DAO</b>
-👥 <b>Members:</b> ${formatNumber(data.members, 0)}
 🪙 <b>Total NG Staked:</b> ${formatNumber(data.totalStaked)} NG
 
 👤 <b>Buyer:</b> <code>${shortAddress(data.buyer)}</code>
